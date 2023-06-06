@@ -1,0 +1,28 @@
+@import '../../allstyles.scss';
+
+nav {
+  background-color: $backtwo;
+
+  padding: 1rem;
+
+ a {
+  color: $text;
+  margin: 0 .5rem;
+
+  background-color: $background;
+  padding: .5rem;
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  &:hover {
+    background-color: lighten($color: $background, $amount: 3);
+    transition: .3s;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+ }
+
+}
